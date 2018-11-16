@@ -10,7 +10,7 @@ $(document).ready(function(){
             type:"get",
             timeout:3000,
             success:function(xhr){
-            alert(xhr.responseText);
+            alert('lalalal');
             },
             error:function (xhr) {
             alert("请求失败");
