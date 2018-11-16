@@ -6,7 +6,10 @@ $(document).ready(function(){
     oBtn.click(function(){
         ajax({
             url:"js-5.php",
-            data:{"name":this.getAttribute("name")},
+            data:{
+                "name":username.getAttribute("name"),
+                "psw":password.getAttribute("name")
+            },
             type:"get",
             timeout:3000,
             success:function(xhr){
