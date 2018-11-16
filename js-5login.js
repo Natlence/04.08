@@ -7,8 +7,8 @@ $(document).ready(function(){
         ajax({
             url:"js-5.php",
             data:{
-                "name":username.getAttribute("name"),
-                "psw":password.getAttribute("name")
+                "name":username,
+                "password":password
             },
             type:"get",
             timeout:3000,
