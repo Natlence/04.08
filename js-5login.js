@@ -5,7 +5,7 @@ $(document).ready(function(){
     var oBtn = $("#button");
     oBtn.click(function(){
         ajax({
-            url:"https://natlence.github.io/04.08/03.31.02.html",
+            url:"https://github.com/Natlence/04.08/blob/master/js-5.php",
             data:{"name":this.getAttribute("name")},
             type:"get",
             timeout:3000,
